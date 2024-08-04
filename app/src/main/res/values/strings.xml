@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wake on LAN app</string>
+    <string name="back_arrow">back arrow</string>
+    <string name="save_to_get_quick_access">Save to get quick access</string>
+    <string name="device_name">Device Name</string>
+    <string name="mac_address">Mac Address</string>
+    <string name="save">SAVE</string>
+    <string name="send">SEND</string>
+    <string name="linkedin_icon">linkedin icon</string>
+    <string name="github_icon">github icon</string>
+    <string name="twitter_x_icon">twitter x icon</string>
+    <string name="website_icon">website icon</string>
+    <string name="your_saves">Your Saves</string>
+    <string name="add_item_button">add item button</string>
+    <string name="invalid_mac_address">Invalid MAC Address, use numbers 0 to 9 and letters A to F, the spacing between bytes is automatically added.</string>
+    <string name="auth_error">Authentication error: </string>
+    <string name="auth_failed">Authentication failed:</string>
+    <string name="unlock_to_see_saved_data">Unlock to see saved data</string>
+    <string name="home">Home</string>
+    <string name="saves">Saves</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.wakeonlan.app.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_saves"
+            app:destination="@id/navigation_saves" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_saves"
+        android:name="com.wakeonlan.app.ui.saves.SavesFragment"
+        android:label="@string/saves"
+        tools:layout="@layout/fragment_saves" >
+
+        <action
+            android:id="@+id/action_navigation_saves_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+</navigation>
